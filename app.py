@@ -14,7 +14,7 @@ st.set_page_config(
 # ---------------------- CUSTOM STYLING ----------------------
 st.markdown("""
     <style>
-    /* Background */
+    /* Global Background */
     body {
         background: linear-gradient(135deg, #e3f2fd, #ede7f6);
         font-family: 'Poppins', sans-serif;
@@ -143,7 +143,7 @@ if uploaded_file is not None:
         """, unsafe_allow_html=True)
 
         # ---------------------- CONFIDENCE CHART ----------------------
-        st.subheader("📊 Prediction Confidence")
+        st.subheader("<h2 style='color:white;'>📊 Prediction Confidence</h2>",unsafe_allow_html=True)
         fig, ax = plt.subplots(figsize=(6, 3))
         bars = ax.bar(emotions, preds[0], color=['#e57373', '#64b5f6', '#81c784', '#fff176'])
         ax.set_ylabel("Confidence")
