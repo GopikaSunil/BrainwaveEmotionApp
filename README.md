@@ -1,4 +1,4 @@
-🧠 Brainwave Emotion Detection App
+##🧠 Brainwave Emotion Detection App
 
 The Brainwave Emotion Detection App is an intelligent web application that classifies human emotions — Happy, Calm, Sad, and Depressed — from EEG (Electroencephalogram) brainwave data.
 
