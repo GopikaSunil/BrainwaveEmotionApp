@@ -143,7 +143,7 @@ if uploaded_file is not None:
         """, unsafe_allow_html=True)
 
         # ---------------------- CONFIDENCE CHART ----------------------
-        st.subheader("<h2 style='color:white;'>📊 Prediction Confidence</h2>")
+        st.markdown("<h2 style='color:white;'>📊 Prediction Confidence</h2>")
         fig, ax = plt.subplots(figsize=(6, 3))
         bars = ax.bar(emotions, preds[0], color=['#e57373', '#64b5f6', '#81c784', '#fff176'])
         ax.set_ylabel("Confidence")
