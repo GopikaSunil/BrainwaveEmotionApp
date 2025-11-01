@@ -13,7 +13,7 @@ It leverages deep learning for emotion classification and features a modern Stre
 | 😔 **Depressed** | Reduced energy, emotional imbalance            |
 
 
-🧬 Model Architecture
+### 🧬 Model Architecture
 
 Dataset: DEAP EEG dataset
 
@@ -29,7 +29,7 @@ Loss function: Categorical Crossentropy
 
 Optimizer: Adam
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 | Category          | Tools                              |
 | ----------------- | ---------------------------------- |
 | **Language**      | Python 3.10+                       |
@@ -40,7 +40,7 @@ Optimizer: Adam
 | **Styling**       | HTML, CSS (via Streamlit Markdown) |
 
 
-📚 Research Insight
+### 📚 Research Insight
 
 This project demonstrates the potential of EEG-based emotional recognition in healthcare and AI-driven psychology.
 It can be extended to applications such as:
