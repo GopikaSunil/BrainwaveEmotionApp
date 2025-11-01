@@ -75,16 +75,32 @@ st.markdown("""
 # ---------------------- SIDEBAR ----------------------
 st.sidebar.title("💡 Emotion Insights")
 st.sidebar.markdown("""
-### 🧠 **Emotion Guide**
-Each predicted state reflects your dominant mental and emotional activity derived from EEG signals.
+    <style>
+    .sidebar-text {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .sidebar-text h3 {
+        color: #ffd54f;
+        font-weight: 700;
+        text-align: center;
+    }
+    </style>
+    <div class="sidebar-text">
+    <h3>🧠 Emotion Guide</h3>
+    Each predicted state reflects your dominant mental and emotional activity derived from EEG signals.<br><br>
 
-- 😔 **Depressed** — Low energy, emotional imbalance, reduced engagement.  
-- 😢 **Sad** — Reflective, withdrawn, moderate alpha wave dominance.  
-- 😌 **Calm** — Stable, relaxed, balanced alpha & theta rhythms.  
-- 😄 **Happy** — Positive arousal, elevated beta activity, strong engagement.  
+    - 😔 <b>Depressed</b> — Low energy, emotional imbalance, reduced engagement.  <br>
+    - 😢 <b>Sad</b> — Reflective, withdrawn, moderate alpha wave dominance.  <br>
+    - 😌 <b>Calm</b> — Stable, relaxed, balanced alpha & theta rhythms.  <br>
+    - 😄 <b>Happy</b> — Positive arousal, elevated beta activity, strong engagement.  <br><br>
 
-🧩 The model decodes EEG wave patterns to identify these emotional states.
-""")
+    🧩 The model decodes EEG wave patterns to identify these emotional states.
+    </div>
+""", unsafe_allow_html=True)
+
 
 # ---------------------- HEADER ----------------------
 col1, col2 = st.columns([1, 8])
