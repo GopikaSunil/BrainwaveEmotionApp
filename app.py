@@ -179,7 +179,7 @@ else:
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("""
 <footer>
-📦 <b>Model Version:</b> v1.0 | 🎯 <b>Accuracy:</b> 86.39% | 🗓️ Updated: Oct 2025 |  
+📦 <b>Model Version:</b> v1.0 | 🎯 <b>Accuracy:</b> 86.39% | 🗓️ Updated: Nov 2025 |  
 👩‍💻 Developed by <b>Gopika</b> — Brainwave Emotion Recognition using Deep Learning 
 </footer>
 """, unsafe_allow_html=True)
